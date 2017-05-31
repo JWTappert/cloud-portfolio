@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D01EADDF1EDE0A4E00C70373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EADDE1EDE0A4E00C70373 /* AppDelegate.swift */; };
+		D01EADE11EDE0A4E00C70373 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EADE01EDE0A4E00C70373 /* ViewController.swift */; };
+		D01EADE41EDE0A4E00C70373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01EADE21EDE0A4E00C70373 /* Main.storyboard */; };
+		D01EADE61EDE0A4E00C70373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01EADE51EDE0A4E00C70373 /* Assets.xcassets */; };
+		D01EADE91EDE0A4E00C70373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01EADE71EDE0A4E00C70373 /* LaunchScreen.storyboard */; };
+		D01EADF11EDE10C400C70373 /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EADF01EDE10C400C70373 /* DatabaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D01EADDB1EDE0A4E00C70373 /* Web Service Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Service Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01EADDE1EDE0A4E00C70373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D01EADE01EDE0A4E00C70373 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D01EADE31EDE0A4E00C70373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D01EADE51EDE0A4E00C70373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D01EADE81EDE0A4E00C70373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D01EADEA1EDE0A4E00C70373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01EADF01EDE10C400C70373 /* DatabaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D01EADD81EDE0A4E00C70373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D01EADD21EDE0A4E00C70373 = {
+			isa = PBXGroup;
+			children = (
+				D01EADDD1EDE0A4E00C70373 /* Web Service Portfolio */,
+				D01EADDC1EDE0A4E00C70373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D01EADDC1EDE0A4E00C70373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D01EADDB1EDE0A4E00C70373 /* Web Service Portfolio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01EADDD1EDE0A4E00C70373 /* Web Service Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				D01EADDE1EDE0A4E00C70373 /* AppDelegate.swift */,
+				D01EADE01EDE0A4E00C70373 /* ViewController.swift */,
+				D01EADE21EDE0A4E00C70373 /* Main.storyboard */,
+				D01EADE51EDE0A4E00C70373 /* Assets.xcassets */,
+				D01EADE71EDE0A4E00C70373 /* LaunchScreen.storyboard */,
+				D01EADEA1EDE0A4E00C70373 /* Info.plist */,
+				D01EADF01EDE10C400C70373 /* DatabaseViewController.swift */,
+			);
+			path = "Web Service Portfolio";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D01EADDA1EDE0A4E00C70373 /* Web Service Portfolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01EADED1EDE0A4E00C70373 /* Build configuration list for PBXNativeTarget "Web Service Portfolio" */;
+			buildPhases = (
+				D01EADD71EDE0A4E00C70373 /* Sources */,
+				D01EADD81EDE0A4E00C70373 /* Frameworks */,
+				D01EADD91EDE0A4E00C70373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Web Service Portfolio";
+			productName = "Web Service Portfolio";
+			productReference = D01EADDB1EDE0A4E00C70373 /* Web Service Portfolio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D01EADD31EDE0A4E00C70373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Justin Tappert";
+				TargetAttributes = {
+					D01EADDA1EDE0A4E00C70373 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5RAB5T5U95;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D01EADD61EDE0A4E00C70373 /* Build configuration list for PBXProject "Web Service Portfolio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D01EADD21EDE0A4E00C70373;
+			productRefGroup = D01EADDC1EDE0A4E00C70373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D01EADDA1EDE0A4E00C70373 /* Web Service Portfolio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D01EADD91EDE0A4E00C70373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01EADE91EDE0A4E00C70373 /* LaunchScreen.storyboard in Resources */,
+				D01EADE61EDE0A4E00C70373 /* Assets.xcassets in Resources */,
+				D01EADE41EDE0A4E00C70373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D01EADD71EDE0A4E00C70373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01EADF11EDE10C400C70373 /* DatabaseViewController.swift in Sources */,
+				D01EADE11EDE0A4E00C70373 /* ViewController.swift in Sources */,
+				D01EADDF1EDE0A4E00C70373 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D01EADE21EDE0A4E00C70373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01EADE31EDE0A4E00C70373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D01EADE71EDE0A4E00C70373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01EADE81EDE0A4E00C70373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D01EADEB1EDE0A4E00C70373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D01EADEC1EDE0A4E00C70373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D01EADEE1EDE0A4E00C70373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RAB5T5U95;
+				INFOPLIST_FILE = "Web Service Portfolio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.osucascades.cs496.Web-Service-Portfolio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D01EADEF1EDE0A4E00C70373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RAB5T5U95;
+				INFOPLIST_FILE = "Web Service Portfolio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.osucascades.cs496.Web-Service-Portfolio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D01EADD61EDE0A4E00C70373 /* Build configuration list for PBXProject "Web Service Portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01EADEB1EDE0A4E00C70373 /* Debug */,
+				D01EADEC1EDE0A4E00C70373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01EADED1EDE0A4E00C70373 /* Build configuration list for PBXNativeTarget "Web Service Portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01EADEE1EDE0A4E00C70373 /* Debug */,
+				D01EADEF1EDE0A4E00C70373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D01EADD31EDE0A4E00C70373 /* Project object */;
+}
