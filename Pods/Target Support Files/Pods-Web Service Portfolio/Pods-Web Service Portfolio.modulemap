@@ -1,0 +1,6 @@
+framework module Pods_Web_Service_Portfolio {
+  umbrella header "Pods-Web Service Portfolio-umbrella.h"
+
+  export *
+  module * { export * }
+}
