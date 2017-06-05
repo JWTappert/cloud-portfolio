@@ -14,6 +14,8 @@
 		D01EADE91EDE0A4E00C70373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01EADE71EDE0A4E00C70373 /* LaunchScreen.storyboard */; };
 		D01EADF11EDE10C400C70373 /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EADF01EDE10C400C70373 /* DatabaseViewController.swift */; };
 		D04FE48E1EE4D0EF00376DAA /* DiscordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FE48D1EE4D0EF00376DAA /* DiscordViewController.swift */; };
+		D04FE4901EE504DF00376DAA /* TopSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FE48F1EE504DF00376DAA /* TopSongsViewController.swift */; };
+		D04FE4921EE5056F00376DAA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FE4911EE5056F00376DAA /* DetailViewController.swift */; };
 		F69D91CE510A8ADD79DBD900 /* Pods_Web_Service_Portfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70CF9640EA6181713CC2B47 /* Pods_Web_Service_Portfolio.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		D01EADEA1EDE0A4E00C70373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D01EADF01EDE10C400C70373 /* DatabaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseViewController.swift; sourceTree = "<group>"; };
 		D04FE48D1EE4D0EF00376DAA /* DiscordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscordViewController.swift; sourceTree = "<group>"; };
+		D04FE48F1EE504DF00376DAA /* TopSongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopSongsViewController.swift; sourceTree = "<group>"; };
+		D04FE4911EE5056F00376DAA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D70CF9640EA6181713CC2B47 /* Pods_Web_Service_Portfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Web_Service_Portfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1D370FBD812E79AFD07416 /* Pods-Web Service Portfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Web Service Portfolio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Web Service Portfolio/Pods-Web Service Portfolio.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +94,8 @@
 				D01EADEA1EDE0A4E00C70373 /* Info.plist */,
 				D01EADF01EDE10C400C70373 /* DatabaseViewController.swift */,
 				D04FE48D1EE4D0EF00376DAA /* DiscordViewController.swift */,
+				D04FE48F1EE504DF00376DAA /* TopSongsViewController.swift */,
+				D04FE4911EE5056F00376DAA /* DetailViewController.swift */,
 			);
 			path = "Web Service Portfolio";
 			sourceTree = "<group>";
@@ -219,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01EADF11EDE10C400C70373 /* DatabaseViewController.swift in Sources */,
+				D04FE4901EE504DF00376DAA /* TopSongsViewController.swift in Sources */,
 				D04FE48E1EE4D0EF00376DAA /* DiscordViewController.swift in Sources */,
+				D04FE4921EE5056F00376DAA /* DetailViewController.swift in Sources */,
 				D01EADE11EDE0A4E00C70373 /* ViewController.swift in Sources */,
 				D01EADDF1EDE0A4E00C70373 /* AppDelegate.swift in Sources */,
 			);
