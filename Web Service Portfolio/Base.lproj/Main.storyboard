@@ -28,8 +28,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3dR-NA-zuT">
+                                <rect key="frame" x="16" y="364" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Send a message to Discord!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnq-Ep-dcN">
+                                <rect key="frame" x="16" y="276" width="343" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q26-r4-P7M">
-                                <rect key="frame" x="169" y="525" width="36" height="30"/>
+                                <rect key="frame" x="169" y="421" width="36" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Send"/>
                                 <connections>
@@ -40,10 +54,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Discord" id="O7V-YA-lgv"/>
+                    <connections>
+                        <outlet property="messageBodyField" destination="3dR-NA-zuT" id="u5x-Qf-mMR"/>
+                        <outlet property="responseMessageLabel" destination="bnq-Ep-dcN" id="w4S-xa-EpL"/>
+                        <outlet property="sendMessageButton" destination="Q26-r4-P7M" id="XIR-B7-aux"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="or6-PW-889" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="751" y="-828"/>
+            <point key="canvasLocation" x="749.60000000000002" y="-828.03598200899557"/>
         </scene>
         <!--Pub/Sub-->
         <scene sceneID="At7-dV-ktg">
