@@ -61,19 +61,31 @@ class DiscordViewController: UIViewController, UITextFieldDelegate {
 
     
     @IBAction func sendMessageButton(_ sender: UIButton) {
+        
         let dataToSend: Parameters = [
             "content" : messageString!,
             "username" : "Justin",
             "avatar_url" : "http://walljack.xyz/meme/2016/12/funny-meme-faces-pictures-best-memes-faces-7-310x200.jpg"
         ]
         
-        
         Alamofire.request(webhookUrl, method: .post, parameters: dataToSend, encoding: JSONEncoding.default).responseJSON { response in
             switch response.result {
             case .success:
                 print("Request was successfull")
+                self.messageBodyField.text = ""
+                self.sendMessageButton.isEnabled = false
+                self.responseMessageLabel.text = "Message Sent!"
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
+                    self.responseMessageLabel.text = "Send a message to Discord!"
+                }
             case .failure(let error):
                 print(error)
+                self.sendMessageButton.isEnabled = false
+                self.responseMessageLabel.text = "Error: Something went wrong"
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
+                    self.responseMessageLabel.text = "Send a message to Discord!"
+                }
+
             }
         }
     }
