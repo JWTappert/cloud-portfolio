@@ -14,13 +14,11 @@ class DiscordViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var responseMessageLabel: UILabel!
     @IBOutlet weak var sendMessageButton: UIButton!
     
-    
     var messageString: String?
     let noMessageAlert = UIAlertController(title: "No Message", message: "Please enter a message to post to Discord", preferredStyle: .alert)
     
     let webhookUrl = "https://discordapp.com/api/webhooks/319951076742660097/d7r6soksSuGxv-fm_hj5JIUQiQmVSe7YFNSRuAUaA89MzU6vM1LRNeZCaOnRQ_S5Gkqe"
     
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,7 +56,7 @@ class DiscordViewController: UIViewController, UITextFieldDelegate {
             }
         }
     }
-
+    // end textfield delagate functions
     
     @IBAction func sendMessageButton(_ sender: UIButton) {
         
