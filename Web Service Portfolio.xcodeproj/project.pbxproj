@@ -13,6 +13,7 @@
 		D01EADE61EDE0A4E00C70373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01EADE51EDE0A4E00C70373 /* Assets.xcassets */; };
 		D01EADE91EDE0A4E00C70373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01EADE71EDE0A4E00C70373 /* LaunchScreen.storyboard */; };
 		D01EADF11EDE10C400C70373 /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01EADF01EDE10C400C70373 /* DatabaseViewController.swift */; };
+		D02A51971EE74D74001E51C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D02A51961EE74D74001E51C8 /* GoogleService-Info.plist */; };
 		D04FE48E1EE4D0EF00376DAA /* DiscordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FE48D1EE4D0EF00376DAA /* DiscordViewController.swift */; };
 		D04FE4901EE504DF00376DAA /* TopSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FE48F1EE504DF00376DAA /* TopSongsViewController.swift */; };
 		D04FE4921EE5056F00376DAA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04FE4911EE5056F00376DAA /* DetailViewController.swift */; };
@@ -29,6 +30,7 @@
 		D01EADE81EDE0A4E00C70373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D01EADEA1EDE0A4E00C70373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D01EADF01EDE10C400C70373 /* DatabaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseViewController.swift; sourceTree = "<group>"; };
+		D02A51961EE74D74001E51C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D04FE48D1EE4D0EF00376DAA /* DiscordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscordViewController.swift; sourceTree = "<group>"; };
 		D04FE48F1EE504DF00376DAA /* TopSongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopSongsViewController.swift; sourceTree = "<group>"; };
 		D04FE4911EE5056F00376DAA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		D01EADDD1EDE0A4E00C70373 /* Web Service Portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				D02A51961EE74D74001E51C8 /* GoogleService-Info.plist */,
 				D01EADDE1EDE0A4E00C70373 /* AppDelegate.swift */,
 				D01EADE01EDE0A4E00C70373 /* ViewController.swift */,
 				D01EADE21EDE0A4E00C70373 /* Main.storyboard */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01EADE91EDE0A4E00C70373 /* LaunchScreen.storyboard in Resources */,
+				D02A51971EE74D74001E51C8 /* GoogleService-Info.plist in Resources */,
 				D01EADE61EDE0A4E00C70373 /* Assets.xcassets in Resources */,
 				D01EADE41EDE0A4E00C70373 /* Main.storyboard in Resources */,
 			);

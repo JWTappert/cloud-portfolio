@@ -8,5 +8,7 @@ target 'Web Service Portfolio' do
   # Pods for Web Service Portfolio
   pod 'Alamofire', '~> 4.4'
   pod 'SwiftyJSON', '~> 3.1'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
 end
